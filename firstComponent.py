@@ -4,7 +4,7 @@ class firstComponent(om.ExplicitComponent):
 
     def setup(self):
         # input
-        self.add_input('x', val=5.0, desc="variable a")
+        self.add_input('x', val=5.0, desc="variable x")
 
         # output
         self.add_output('y')
